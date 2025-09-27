@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .resume {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .sidebar {
+    width: 30%;
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar h2 {
+    margin: 10px 0 5px;
+  }
+  
+  .sidebar p {
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .sidebar h3 {
+    margin-top: 20px;
+    border-bottom: 1px solid #7f8c8d;
+    padding-bottom: 5px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 8px 0;
+  }
+  
+  .content {
+    width: 70%;
+    padding: 30px;
+  }
+  
+  .content section {
+    margin-bottom: 30px;
+  }
+  
+  .content h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 5px;
+  }
+  
+  .content h4 {
+    margin: 10px 0 5px;
+    color: #34495e;
+  }
+  
+  .content ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
